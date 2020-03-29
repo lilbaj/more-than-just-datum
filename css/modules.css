@@ -18,7 +18,7 @@ html {
   text-size-adjust: 100%;
 }
 
-*, *::before, *::after {A
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
