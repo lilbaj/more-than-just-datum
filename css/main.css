@@ -1,5 +1,9 @@
 html {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 img {
+  width: 200px;
 }
 
 header {
@@ -12,4 +16,12 @@ ul {
 
 .back {
   background-color: #fff;
+}
+
+th {
+  min-width: 6em;
+}
+
+.dis {
+  min-width: 10em;
 }

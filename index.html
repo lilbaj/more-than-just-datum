@@ -2,49 +2,55 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>More Than Just Datum</title>
+  <title>Playground Finder</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="grid grid-middle">
-    <h1 class="unit xs-1 m-1-3 l-1-4 island-1-2 push-0">
-      <img class="img-flex" src="images/logo.svg" alt="">
+  <header class="grid grid-middle island-1-2">
+    <h1 class="unit xs-1 m-1-3 l-1-4 push-1-2">
+      <img src="images/logo.svg" alt="">
     </h1>
-    <form class="unit xs-1 m-2-3 l-3-4 relative island-1-2" action="#" method="POST">
-      <input class="" id="search-bar" type="search" name="" value="">
-      <label class="absolute pin-center-left island-1-2" for="search-bar"><img class="i-20"src="images/search.svg" alt=""></label>
+    <form class="unit xs-1 m-2-3 l-3-4 relative pad-t-1-8" action="#" method="POST">
+      <input id="search-bar" type="search" name="Search" required>
+      <label class="absolute pin-center-left island-1-4" for="search-bar"><img class="i-18 icon-label" src="images/search.svg" alt=""></label>
     </form>
   </header>
 
   <main class="grid">
-    <ul class="unit xs-1 m-1-3 l-1-4 list-group island-1-2">
+    <ul class="unit xs-1 m-1-3 l-1-4 list-group island-1-2 push-0">
       <li>
-        <h2 class="giga">Nearest playgrounds</h2>
+        <h2 class="giga push-1-2">Nearest playgrounds</h2>
       </li>
       <li class="back push-1-2 island-1-2">
-        <p class="bold push-0">373</p>
-        <p class="italic micro push-0">Distance</p>
-        <p class="milli push-0">0.75 km</p>
+        <div class="grid">
+          <p class="unit xs-1 s-1 m-1 bold push-0 tera">373</p>
+          <p class="unit xs-1 s-1-2 m-1 italic milli push-0 dis">Distance</p>
+          <p class="unit xs-1 s-1-2 m-1 push-0">0.75 km</p>
+        </div>
       </li>
       <li class="back push-1-2 island-1-2">
-        <p class="bold push-0">1700</p>
-        <p class="italic micro push-0">Distance</p>
-        <p class="milli push-0">2.58 km</p>
+        <div class="grid">
+          <p class="unit xs-1 s-1 m-1 bold push-0 tera ">1700</p>
+          <p class="unit xs-1 s-1-2 m-1 italic milli push-0 dis">Distance</p>
+          <p class="unit xs-1 s-1-2 m-1 push-0">2.58 km</p>
+        </div>
       </li>
-      <li class="back push-1-2 island-1-2">
-        <p class="bold push-0">960</p>
-        <p class="italic micro push-0">Distance</p>
-        <p class="milli push-0">3.03 km</p>
+      <li class="back island-1-2">
+        <div class="grid">
+          <p class="unit xs-1 s-1 m-1 bold push-0 tera">960</p>
+          <p class="unit xs-1 s-1-2 m-1 italic milli push-0 dis">Distance</p>
+          <p class="unit xs-1 s-1-2 m-1 push-0">3.03 km</p>
+        </div>
       </li>
     </ul>
-    <table class="unit xs-1 m-2-3 l-3-4 scrollable island-1-2">
-      <caption class="bold not-italic giga">Playgrounds in the city</caption>
+    <table class="unit xs-1 m-2-3 l-3-4 scrollable island-1-2 m">
+      <caption class="bold not-italic tera push-1-2">Playgrounds in the city</caption>
       <thead>
         <tr>
           <th scope="col">Park ID</th>
