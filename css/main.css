@@ -18,10 +18,16 @@ ul {
   background-color: #fff;
 }
 
-th {
-  min-width: 6em;
-}
-
 .dis {
   min-width: 10em;
+}
+
+th {
+  min-width: 5.5rem;
+  max-width: 6rem;
+}
+
+td {
+  min-width: 5.5rem;
+  max-width: 6rem;
 }
